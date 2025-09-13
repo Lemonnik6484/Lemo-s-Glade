@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "lemoglade",
+	"version": "${version}",
+	"name": "Lemo's Glade",
+	"description": "A little overhaul mod to enhance nature",
+	"authors": [
+		"Lemonnik6484"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/lemos-glade",
+		"sources": "https://github.com/lemonnik6484/lemos-glade"
+	},
+	"license": "ARR",
+	"icon": "assets/lemoglade/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.lemonnik.lemoglade.LemoGlade"
+		],
+		"fabric-datagen": [
+			"dev.lemonnik.lemoglade.LemoGladeDataGenerator"
+		]
+	},
+	"mixins": [
+		"lemoglade.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {}
+}
