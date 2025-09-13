@@ -1,0 +1,15 @@
+- [ ] Clover fields (Clover umbrella from giant clover)
+- [ ] Duckweed
+- [ ] Carpenter's Table (Wood Stonecutter)
+- [ ] Reeds
+- [ ] Flower glades
+- [ ] Patches with plants around them
+- [ ] Botanist’s Journal (Pressed Plants Book)
+- [ ] Campfire Rack (Smoke meat)
+- [ ] Fishing net
+- [ ] Salt
+- [ ] Ducks
+- [ ] Shelf fungus
+- [ ] Carnivore plants
+- [ ] Tea
+- [ ] Bouquet
