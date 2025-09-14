@@ -18,6 +18,9 @@
 		"main": [
 			"dev.lemonnik.lemoglade.LemoGlade"
 		],
+        "client": [
+            "dev.lemonnik.lemoglade.LemoGladeClient"
+        ],
 		"fabric-datagen": [
 			"dev.lemonnik.lemoglade.LemoGladeDataGenerator"
 		]

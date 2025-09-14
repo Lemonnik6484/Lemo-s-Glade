@@ -12,4 +12,6 @@
 - [ ] Shelf fungus
 - [ ] Carnivore plants
 - [ ] Tea
-- [ ] Bouquet
+- [ ] Bouquets
+
+Send mod to CPS & Kam
