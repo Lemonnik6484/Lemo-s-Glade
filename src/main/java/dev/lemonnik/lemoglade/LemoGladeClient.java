@@ -9,7 +9,7 @@ import net.minecraft.client.render.RenderLayer;
 public class LemoGladeClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SMALL_CLOVERS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SMALL_CLOVERS, RenderLayer.getCutout());
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> 0x43c839, ModBlocks.SMALL_CLOVERS);
     }
