@@ -1,11 +1,13 @@
 package dev.lemonnik.lemoglade.registries;
 
 import dev.lemonnik.lemoglade.LemoGlade;
+import dev.lemonnik.lemoglade.blocks.BigClover;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.FlowerbedBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -21,6 +23,18 @@ public class ModBlocks {
                             .mapColor(MapColor.EMERALD_GREEN)
                             .noCollision()
                             .sounds(BlockSoundGroup.PINK_PETALS)
+                            .pistonBehavior(PistonBehavior.DESTROY)
+            )
+    );
+
+    public static final Block BIG_CLOVER = registerBlock("big_clover",
+            properties -> new BigClover(
+                    StatusEffects.LUCK,
+                    150,
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.EMERALD_GREEN)
+                            .noCollision()
+                            .sounds(BlockSoundGroup.AZALEA)
                             .pistonBehavior(PistonBehavior.DESTROY)
             )
     );

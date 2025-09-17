@@ -10,6 +10,7 @@ public class LemoGladeClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SMALL_CLOVERS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BIG_CLOVER, RenderLayer.getCutout());
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> 0x43c839, ModBlocks.SMALL_CLOVERS);
     }
